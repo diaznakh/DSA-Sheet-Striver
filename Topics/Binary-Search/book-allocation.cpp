@@ -19,6 +19,7 @@ public:
         if (student > k) {
             return false;
         } 
+        
         return true;
     }
 
@@ -32,6 +33,8 @@ public:
         
         int low = minarr, high = sum;
         int res = -1;
+
+        
 
         while (low <= high) {
             int mid = low + (high - low) / 2;
